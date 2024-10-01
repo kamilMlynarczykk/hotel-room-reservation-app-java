@@ -1,0 +1,26 @@
+.page-container {
+    padding: 20px;
+}
+
+.content-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    border: 1px solid #ddd;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.alert {
+    font-size: 1.1rem;
+    padding: 15px;
+}

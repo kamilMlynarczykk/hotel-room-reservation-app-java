@@ -1,0 +1,65 @@
+/* SingleRoomPage.css */
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    /* Centers the content horizontally */
+    padding: 0 20%;
+    /* Leaves 20% space on each side */
+}
+
+.content-container {
+    width: 80%;
+    /* Sets the width of the container to 60% of the screen */
+}
+
+.collapse-enter-active,
+.collapse-exit-active {
+    transition: max-height 0.3s ease-out;
+}
+
+/* CSS styles for highlighting dates */
+.react-datepicker__day--highlight-reserved {
+    background-color: #fc2f2c;
+    
+    /* Light red for fully reserved */
+    color: white;
+    /* White text */
+    border-radius: 20%;
+    cursor: not-allowed;
+    opacity: 0.5;
+    /* Round day styling */
+}
+
+.react-datepicker__day--highlight-border {
+    background-color: #eb9d17;
+    /* Light blue for border dates */
+    color: white;
+    /* White text */
+    border-radius: 20%;
+    /* Round day styling */
+}
+
+.date-picker-start {
+    background-color: Blue;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.date-picker-end {
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+
+.react-datepicker__day--highlighted-range {
+  background-color: #007bff; /* Color for highlighted date range */
+  color: white;
+}
+
+.react-datepicker__day--highlighted-range:hover {
+  background-color: #0056b3; /* Hover color for highlighted date range */
+}
