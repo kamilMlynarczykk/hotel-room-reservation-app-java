@@ -1,4 +1,4 @@
-# Hotel Room Reservation App: Spring Boot Backend & React Frontend
+# Hotel Room Reservation App: Spring Boot Backend, React Frontend & Postgres Database
 
 This project consists of two main parts:
 1. **Backend**: A Java Spring Boot application.
@@ -19,6 +19,10 @@ Before running the project, ensure you have the following installed on your mach
 
 ## Getting Started
 
+### Database: Postgres
+
+**Configure postgres server instance**
+
 ### Backend: Java Spring Boot
 
 1. **Clone the repository and move to backend directory:**
@@ -26,6 +30,7 @@ Before running the project, ensure you have the following installed on your mach
     git clone https://github.com/kamilMlynarczykk/room-reservation-app-Springboot-React.git
     cd hotel-room-reservation-app-java/hotel-reservation-app-backend
     ```
+    
 
 2. **Build the Project:**
     ```bash
@@ -40,7 +45,15 @@ Before running the project, ensure you have the following installed on your mach
     The backend should now be running at: `http://localhost:8080`
 
 4. **Backend Configuration:**
-    Ensure your `application.properties` or `application.yml` files are properly configured, especially database connection settings.
+    Ensure your `application.yml` file is properly configured, especially database connection settings.
+   ```bash
+   spring:
+    datasource:
+      url: jdbc:postgresql://localhost:5432/ #server name
+      username: #your username
+      password: #your password
+      driver-class-name: org.postgresql.Driver
+   ```
 
 ---
 
