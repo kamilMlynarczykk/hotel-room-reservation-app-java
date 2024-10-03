@@ -61,7 +61,7 @@ Before running the project, ensure you have the following installed on your mach
 
 1. **Navigate to the Frontend Directory:**
     ```bash
-    cd ../hotel-reservation-app-frontend
+    cd hotel-reservation-app-frontend
     ```
 
 2. **Install Dependencies:**
