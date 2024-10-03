@@ -23,7 +23,7 @@ Before running the project, ensure you have the following installed on your mach
 
 1. **Clone the repository and move to backend directory:**
     ```bash
-    git clone https://github.com/kamilMlynarczykk/hotel-room-reservation-app-java.git
+    git clone https://github.com/kamilMlynarczykk/room-reservation-app-Springboot-React.git
     cd hotel-room-reservation-app-java/hotel-reservation-app-backend
     ```
 
