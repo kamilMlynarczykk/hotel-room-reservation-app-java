@@ -14,6 +14,8 @@ Before running the project, ensure you have the following installed on your mach
   - [Download Maven](https://maven.apache.org/install.html)
 - **Node.js** and **npm** for managing frontend dependencies.
   - [Download Node.js and npm](https://nodejs.org/en/download/)
+- **PostgreSQL** for the database.
+  - [Download PostgreSQL](https://www.postgresql.org/download/)
 - **Git** for version control.
   - [Download Git](https://git-scm.com/downloads)
 
