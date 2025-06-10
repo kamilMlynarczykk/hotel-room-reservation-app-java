@@ -8,8 +8,8 @@ This project consists of two main parts:
 
 Before running the project, ensure you have the following installed on your machine:
 
-- **Java Development Kit (JDK)** 8 or later (Recommended: JDK 11).
-  - [Download JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- **Java Development Kit (JDK) 21.
+  - [Download JDK](https://www.oracle.com/java/technologies/javase-jdk21-downloads.html)
 - **Apache Maven** for managing the backend dependencies.
   - [Download Maven](https://maven.apache.org/install.html)
 - **Node.js** and **npm** for managing frontend dependencies.
